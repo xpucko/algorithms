@@ -7,10 +7,14 @@ Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorith
 ![](https://i.makeagif.com/media/11-24-2015/gI3nus.gif)
 
 
+
+
 ## Selection Sort.
 The selection sort algorithm sorts an array by repeatedly finding the minimum element  from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array. In every iteration of selection sort, the minimum element from the unsorted subarray is picked and moved to the sorted subarray. Selection sort is not difficult to analyze compared to other sorting algorithms since none of the loops depends on the data in the array. Time Complexity is O(n2) as there are two nested loops.
 
 ![](https://stackabuse.s3.amazonaws.com/media/selection-sort-in-javascript-1.gif)
+
+
 
 
 ## Insertion Sort.
@@ -19,10 +23,14 @@ Insertion sort iterates, consuming one input element each repetition, and grows 
 ![](http://www.xybernetics.com/techtalk/SortingAlgorithmsExplained/images/InsertionEg02.gif)
 
 
+
+
 ## Heap Sort.
 Heap sort is a comparison based sorting technique based on Binary Heap data structure. It is similar to selection sort where we first find the maximum element and place the maximum element at the end. We repeat the same process for the remaining elements. The Heap sort algorithm involves preparing the list by first turning it into a max heap. The algorithm then repeatedly swaps the first value of the list with the last value, decreasing the range of values considered in the heap operation by one, and sifting the new first value into its position in the heap. This repeats until the range of considered values is one value in length. The performance of this algorithm is O(n log n).
 
 ![](https://www.codesdope.com/staticroot/images/algorithm/heapsort1.gif)
+
+
 
 
 ## Merge Sort.
@@ -37,9 +45,15 @@ Quick sort is an efficient sorting algorithm. It is a divide and conquer algorit
 ![](https://assets.digitalocean.com/articles/alligator/js/quick-sort/quick-sort-animation.gif)
 
 
+
+
 ## Radix Sort.
 
+
+
 ## Shell Sort.
+
+
 
 ## The complexity.
 Analysis of an algorithm's complexity is helpful when comparing algorithms or seeking improvements. Every sorting algorithms has its own advantages and disadvantages, their complexity can be seen as a way of expressing their own advantages and disadvantages easily according to a specific set of input data. The complexity for sorting algorithms is probably even more important than for data structures. The complexity is expressed on 2 axes, the space and the time. It's usually in terms of time. The space complexity represents the memory consumption of a sorting algorithm.
