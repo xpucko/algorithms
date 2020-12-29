@@ -34,10 +34,14 @@ Merge sort is an efficient, general-purpose, comparison-based sorting algorithm.
 ## Quick Sort
 Quick sort is an efficient sorting algorithm. It is a divide and conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively. This can be done in-place, requiring small additional amounts of memory to perform the sorting. When implemented well, it can be about two or three times faster than its main competitors, merge sort and heap sort.
 
-![](https://assets.digitalocean.com/articles/alligator/js/quick-sort/quick-sort-animation.gif)
+![](http://www-scf.usc.edu/~zhan468/public/Notes/resources/C411339B79F92499DCB7B5F304C826F4.gif)
 
 
 ## Radix Sort
+Radix sort is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix. For elements with more than one significant digit, this bucketing process is repeated for each digit, while preserving the ordering of the prior step, until all digits have been considered. For this reason, radix sort has also been called bucket sort and digital sort. The time complexity of radix sort is O(d*(n+b)), where d is the number of digits in the given list, n is the number of elements in the list, and b is the base or bucket size used, which is normally base 10 for decimal representation.
+
+![](https://images3.programmersought.com/732/11/1116fc068eb921646b37275cc5bf65bc.gif)
+
 
 ## Shell Sort
 
