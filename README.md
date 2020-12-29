@@ -5,21 +5,16 @@ Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorith
 
 ### Selection Sort.
 The selection sort algorithm sorts an array by repeatedly finding the minimum element  from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array. In every iteration of selection sort, the minimum element from the unsorted subarray is picked and moved to the sorted subarray. Selection sort is not difficult to analyze compared to other sorting algorithms since none of the loops depends on the data in the array. Time Complexity is O(n2) as there are two nested loops.
-![](https://gifimage.net/wp-content/uploads/2018/05/selection-sort-gif-12.gif)
+![](https://gifimage.net/wp-content/uploads/2018/05/selection-sort-gif-12.gif){:height="60%" width="60%"}
 
-### Insertion Sort.
+## Insertion Sort.
 
+## Heap Sort.
 
-### Heap Sort.
+## Merge Sort.
 
+## Quick Sort.
 
-### Merge Sort.
+## Radix Sort.
 
-
-### Quick Sort.
-
-
-### Radix Sort.
-
-
-### Shell Sort.
+## Shell Sort.
