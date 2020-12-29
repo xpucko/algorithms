@@ -58,8 +58,8 @@ Quick sort is an efficient sorting algorithm. It is a divide and conquer algorit
 ## The complexity.
 Analysis of an algorithm's complexity is helpful when comparing algorithms or seeking improvements. Every sorting algorithms has its own advantages and disadvantages, their complexity can be seen as a way of expressing their own advantages and disadvantages easily according to a specific set of input data. The complexity for sorting algorithms is probably even more important than for data structures. The complexity is expressed on 2 axes, the space and the time. It's usually in terms of time. The space complexity represents the memory consumption of a sorting algorithm.
 
-![](http://blog.benoitvallon.com/img/2016-03-12-sorting-algorithms-in-javascript/big-o-complexity.png)
+![](http://blog.benoitvallon.com/img/2016-03-12-sorting-algorithms-in-javascript/big-o.png)
 
 The Big-O notation is the standard metric used to measure the complexity of an algorithm.
 
-![](http://blog.benoitvallon.com/img/2016-03-12-sorting-algorithms-in-javascript/big-o.png)
+![](http://blog.benoitvallon.com/img/2016-03-12-sorting-algorithms-in-javascript/big-o-complexity.png)
