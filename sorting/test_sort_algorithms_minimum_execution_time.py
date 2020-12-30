@@ -1,6 +1,6 @@
 """
 By executing this code you can see the difference in the duration of the algorithms.
-Time varies with the power of the computer and the generation of shuffled numbers. I got these result:
+Time varies with the power of the computer and the generation of shuffled numbers. I got these results:
 
 Sample test with 5000 shuffled integers, each of them between 0 and 1000.
 * radix_sort - minimum execution time of 10 times: 0.0710534669997287
