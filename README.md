@@ -44,6 +44,10 @@ Radix sort is a non-comparative sorting algorithm. It avoids comparison by creat
 
 
 ## Shell Sort
+Shell sort is a highly efficient sorting algorithm and is based on insertion sort algorithm. This algorithm avoids large shifts as in case of insertion sort, if the smaller value is to the far right and has to be moved to the far left. This algorithm uses insertion sort on a widely spread elements, first to sort them and then sorts the less widely spaced elements.
+
+![](https://i.makeagif.com/media/8-25-2016/mKGEkd.gif)
+
 
 # The complexity
 Analysis of an algorithm's complexity is helpful when comparing algorithms or seeking improvements. By studying time complexity we will understand the important concept of efficiency and will be able to find bottlenecks in our code which should be improved, mainly when working with huge data sets.
