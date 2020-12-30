@@ -15,14 +15,14 @@ Sample test with 5000 shuffled integers, each of them between 0 and 1000.
 
 from random import randint
 from timeit import repeat
-from algorithms.sort_algorithms.radix_sort import radix_sort
-from algorithms.sort_algorithms.quick_sort import quick_sort
-from algorithms.sort_algorithms.merge_sort import merge_sort
-from algorithms.sort_algorithms.shell_sort import shell_sort
-from algorithms.sort_algorithms.heap_sort import heap_sort
-from algorithms.sort_algorithms.selection_sort import selection_sort
-from algorithms.sort_algorithms.insertion_sort import insertion_sort
-from algorithms.sort_algorithms.bubble_sort import bubble_sort
+from radix_sort import radix_sort
+from quick_sort import quick_sort
+from merge_sort import merge_sort
+from shell_sort import shell_sort
+from heap_sort import heap_sort
+from selection_sort import selection_sort
+from insertion_sort import insertion_sort
+from bubble_sort import bubble_sort
 
 
 def run_sorting_algorithm(algorithm, array):
